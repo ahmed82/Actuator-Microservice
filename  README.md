@@ -49,3 +49,8 @@ with Json body
 	"name":"st001",
 	"stage":{"value":100}
 }
+
+{
+	"name":"st001",
+	"stage":100
+}
