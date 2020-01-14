@@ -6,4 +6,6 @@ public interface VendorService {
 	
 	Vendor save(Vendor vendor);
 
+	Vendor fetchVendorByid(int id);
+
 }
