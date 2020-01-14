@@ -1,11 +1,12 @@
 package com.atr.rent.repository;
 
-import org.springframework.data.repository.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.atr.rent.model.Vendor;
 
-public interface VendorRepository extends Repository<Vendor,Integer>{
+public interface VendorRepository extends JpaRepository<Vendor,Integer>{
 	
-	Vendor save(Vendor vendor);
+	/*It was used when extends Repository<Vendor,Integer>*/
+	//Vendor save(Vendor vendor);
 
 }
