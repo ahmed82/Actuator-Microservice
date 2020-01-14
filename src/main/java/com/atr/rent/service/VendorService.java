@@ -4,6 +4,6 @@ import com.atr.rent.model.Vendor;
 
 public interface VendorService {
 	
-	Vendor save(Vendor vindor);
+	Vendor save(Vendor vendor);
 
 }
